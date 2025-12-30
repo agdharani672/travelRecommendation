@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bloom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <header class="header-content">
+        <div class="header-logo-section">
+            <img src="./assets/aeroplane_logo-removebg-preview.png" class="header-logo">
+            <span class="header-title">Travel Bloom</span>
+        </div>
+        <nav class="nav-container">
+            <a href="travel_recommendation.html" class="nav-link">HOME</a>
+            <a href="about.html" class="nav-link">ABOUT</a>
+            <a href="contact.html" class="nav-link">CONTACT US</a>
+        </nav>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-input" placeholder="Enter a destination or keyword">
+            <button class="search-button">Search</button>
+            <button class="search-button">Clear</button>
+        </div>
+    </header>
+    <div class="main-content">
+        <div style="display: flex;flex-direction: row;gap:3rem">
+                <div class="social-icons">
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="home-text-container">
+            <h1 class="home-title">EXPLORE HOME DESTINATION</h1>
+            <p class="home-text">Travel Bloom is a travel recommendation website that helps you to find
+                the best travel destination based on your preferences. We provide you with the best travel
+                recommendations based on your preferences
+                and budget. We have a wide range of travel destinations to choose from.</p>
+            <div class="home-button-container">
+                <button class="home-button">BOOK NOW</button>
+            </div>
+       
+        </div>
+        </div>
+       
+         <div id="cardsContainer" class="cards-container"></div>
+          <script src="./travel_recommendation.js"></script>
+    </div>
+</body>
+
+</html>
